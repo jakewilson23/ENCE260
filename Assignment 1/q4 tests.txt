@@ -1,0 +1,75 @@
+Float24_t number_a = float24_init(1, 0);
+Float24_t number_b = float24_init(1, 0);
+Float24_t sum = float24_add(number_a, number_b);
+Float24_t product = float24_multiply(number_a, number_b);
+float24_print(sum);
+float24_print(product);
+2 * 2 ^ 0
+1 * 2 ^ 0
+2 * 2 ^ 0
+1 * 2 ^ 0
+
+Float24_t number_a = float24_init(5, 0);
+Float24_t number_b = float24_init(-4, 0);
+Float24_t sum = float24_add(number_a, number_b);
+Float24_t product = float24_multiply(number_a, number_b);
+float24_print(sum);
+float24_print(product);
+1 * 2 ^ 0
+-20 * 2 ^ 0
+1 * 2 ^ 0
+-20 * 2 ^ 0
+
+Float24_t number_a = float24_init(INT16_MAX, 0);
+Float24_t number_b = float24_init(INT16_MAX, 0);
+Float24_t sum = float24_add(number_a, number_b);
+Float24_t product = float24_multiply(number_a, number_b);
+float24_print(sum);
+float24_print(product);
+32767 * 2 ^ 1
+32766 * 2 ^ 15
+32767 * 2 ^ 1
+32766 * 2 ^ 15
+
+Float24_t number_a = float24_init(INT16_MIN, 0);
+Float24_t number_b = float24_init(INT16_MAX, 0);
+Float24_t sum = float24_add(number_a, number_b);
+Float24_t product = float24_multiply(number_a, number_b);
+float24_print(sum);
+float24_print(product);
+-1 * 2 ^ 0
+-32767 * 2 ^ 15
+-1 * 2 ^ 0
+-32767 * 2 ^ 15
+
+Float24_t number_a = float24_init(INT16_MIN, 2);
+Float24_t number_b = float24_init(INT16_MAX, 2);
+Float24_t sum = float24_add(number_a, number_b);
+Float24_t product = float24_multiply(number_a, number_b);
+float24_print(sum);
+float24_print(product);
+-1 * 2 ^ 2
+-32767 * 2 ^ 19
+-1 * 2 ^ 2
+-32767 * 2 ^ 19
+
+Float24_t number_a = float24_init(INT16_MIN, -2);
+Float24_t number_b = float24_init(INT16_MAX, -2);
+Float24_t sum = float24_add(number_a, number_b);
+Float24_t product = float24_multiply(number_a, number_b);
+float24_print(sum);
+float24_print(product);
+-1 * 2 ^ -2
+-32767 * 2 ^ 11
+-1 * 2 ^ -2
+-32767 * 2 ^ 11
+
+Float24_t number_a = float24_init(INT16_MIN, 2);
+Float24_t number_b = float24_init(INT16_MAX, -2);
+Float24_t sum = float24_add(number_a, number_b);
+Float24_t product = float24_multiply(number_a, number_b);
+float24_print(sum);
+float24_print(product);
+
+-30721 * 2 ^ 2
+-32767 * 2 ^ 15

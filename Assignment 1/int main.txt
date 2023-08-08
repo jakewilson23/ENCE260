@@ -1,0 +1,60 @@
+//int main(void)
+//{
+    /* Question 1
+    Float24_t val1 = {1, 0};
+    printf("Mantissa: %hd, Exponent: %hhd\n", val1.mantissa, val1.exponent);*/
+    /* Question 2
+    Float24_t val1 = float24_init(1, 0);
+    Float24_t val2 = float24_init(2, 1);
+    float24_print(val1);
+    float24_print(val2);*/
+    /* Question 3
+    Float24_t result = float24_normalise(1,0);
+    float24_print(result);
+    Float24_t result1 = float24_normalise(123456,0);
+    float24_print(result1);*/
+    /* Question 4
+    Float24_t number_a = float24_init(INT16_MIN, 2);
+    Float24_t number_b = float24_init(INT16_MAX, -2);
+    Float24_t sum = float24_add(number_a, number_b);
+    Float24_t product = float24_multiply(number_a, number_b);
+    float24_print(sum);
+    float24_print(product);*/
+    
+    //Float24_t val = float24_read();
+    //float24_print(val);
+    /*
+    Float24_t val;
+    val = float24_read();
+    float24_print(val);
+    val = float24_read();
+    float24_print(val);
+    val = float24_read();
+    float24_print(val);*/
+
+	/* Question 6
+    Float24_t x = float24_read();
+    Float24_t y = float24_read();
+    Float24_t z = float24_add(x, y);
+
+    float24_print(z);
+    printf("%.4f + %.4f = %.4f\n", float24_asIEEE(x), float24_asIEEE(y), float24_asIEEE(z));*/
+
+    /* Question 7
+    Float24_t x = float24_init(123, 1);
+    Float24_t y = float24_init(123, 2);
+    
+    Float24_t* max = calloc(1, sizeof(Float24_t));
+    max = &x;
+    float24_max(&x, &y, &max);
+    //printf("Num1: %p, num2: %p max: %p\n", &x, &y, max);
+    free(max);*/
+
+    /* Question 8
+    Float24_t array[] = {float24_init(-50, 0), float24_init(50, 0), float24_init(24, 1)};
+
+    Float24_t* max = float24_arrayMax(array, 3, &float24_max);
+    printf("Max of Numbers: ");
+    float24_print(*max);*/
+    
+//}

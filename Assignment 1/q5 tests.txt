@@ -1,0 +1,34 @@
+Float24_t val = float24_read();
+float24_print(val);
+42b3
+42 * 2 ^ 3
+42 * 2 ^ 3
+Float24_t val = float24_read();
+float24_print(val);
+16b-2
+16 * 2 ^ -2
+16 * 2 ^ -2
+Float24_t val = float24_read();
+float24_print(val);
+-17b-3
+-17 * 2 ^ -3
+-17 * 2 ^ -3
+Float24_t val;
+val = float24_read();
+float24_print(val);
+val = float24_read();
+float24_print(val);
+val = float24_read();
+float24_print(val);
+83b100 -12b2 93b230
+83 * 2 ^ 100
+-12 * 2 ^ 2
+93 * 2 ^ 127
+83 * 2 ^ 100
+-12 * 2 ^ 2
+93 * 2 ^ -26
+Float24_t val = float24_read();
+float24_print(val);
+rubbish
+0 * 2 ^ -128
+0 * 2 ^ -128
